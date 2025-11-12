@@ -33,3 +33,21 @@ tr:nth-child(even) {
   color: white;           
 }
 
+.highlightRow {
+  background-color: #99ccff; 
+  color: #003366;            
+  font-weight: bold;         
+  font-size: 18px;           
+}
+
+.songLink {
+  color: #0033cc; 
+  text-decoration: none; 
+  font-weight: bold;
+}
+
+.songLink:hover {
+  color: #00ccff; 
+  text-decoration: underline;
+}
+
