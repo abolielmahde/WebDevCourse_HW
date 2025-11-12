@@ -8,7 +8,36 @@
       font-family: Arial, sans-serif;
       background-color: #f9f9f9;
       text-align: center;
-      margin-top: 40px;
+      margin: 0;
+      padding-top: 70px; 
+    }
+
+    nav {
+      background-color: #0078d7;
+      padding: 15px;
+      text-align: center;
+      position: fixed;
+      top: 0;
+      width: 100%;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+      z-index: 1000;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 12px;
+      font-weight: bold;
+      transition: color 0.3s;
+    }
+
+    nav a:hover {
+      color: #ffcc00;
+    }
+
+    h1 {
+      margin-top: 30px;
+      color: #333;
     }
 
     table {
@@ -16,6 +45,7 @@
       border-collapse: collapse;
       width: 80%;
       box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      background-color: white;
     }
 
     th, td {
@@ -44,6 +74,14 @@
   </style>
 </head>
 <body>
+
+  <nav>
+    <a href="tags.html">Tags</a> |
+    <a href="contact.html">Contact</a> |
+    <a href="audioList.html">Audio</a> |
+    <a href="playlist.html">Playlist</a> |
+    <a href="summary.html">Summary</a>
+  </nav>
 
   <h1>🎶 My Audio List</h1>
 
